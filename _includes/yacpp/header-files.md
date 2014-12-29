@@ -4,7 +4,7 @@ In general, every **.cpp** file should have an associated **.hpp** file. There a
 
 ## Include guards
 
-All header files should have an include guard to prevent multiple inclusions. The format of the symbol name should be \_\_$PROJECT\_NAME\_[$PATH]\_$FILE\_NAME\_HPP\_\_.
+All header files should have an include guard to prevent multiple inclusions. The format of the symbol name should be \_\_$PROJNAME\_$PATH\_$FILENAME\_HPP\_\_.
 
 To guarantee uniqueness, they should be based on the full path in a project's source tree. For example, the file _foo/src/bar/baz.hpp_ in project foo should have the following guard:
 
@@ -74,7 +74,6 @@ namespace my_engine {
     }
 }
 {% endhighlight %}
-
 
 ### Using namespace
 
