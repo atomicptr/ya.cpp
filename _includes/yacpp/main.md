@@ -12,6 +12,8 @@ Lorem ipsum dolor sit amet.
 
 If the title isn't obvious enough: **y**et **a**nother **.cpp** coding style
 
-# Naming conventions
+## Used terms
+
+* [Snake case](http://en.wikipedia.org/wiki/Snake_case)
 
 {% include yacpp/naming-conventions.md %}
