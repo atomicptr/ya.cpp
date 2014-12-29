@@ -15,12 +15,8 @@ description:      'Yet another C++ code style.'
 url:              http://yacpp.kasoki.de
 baseurl:          /
 
-author:
-  name:           'Christopher Kaster'
-  url:            https://twitter.com/kasoki
-
 # Custom vars
 version:          0.0.1
 
 github:
-  repo:           https://github.com/kasoki/yacpp-coding-style
+  repo:           https://github.com/kasoki/ya.cpp

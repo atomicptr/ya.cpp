@@ -99,4 +99,78 @@ struct url_table_properties {
 };
 {% endhighlight %}
 
+## Function Names
 
+Regular functions are lowercase, accessors and mutators match the name of the variable: add\_table\_entry(), my\_member\_variable()
+
+### Regular and Member Functions
+
+Regular functions should be lowercase with underscores between the words.
+
+{% highlight cpp %}
+void do_something();
+void do_something_else() const;
+int member_variable() const;
+{% endhighlight %}
+
+### Accessors and Mutators
+
+Accessors and mutators (get and set functions) should match the name of the variable they are getting and setting. This shows an example of a class whose member variable is position\_.
+
+{% highlight cpp %}
+class entity {
+public:
+    // ...
+    void set_position(vec3 position);
+    vec3& position();
+
+private:
+    vec3 position_;
+};
+{% endhighlight %}
+
+### Constant Names
+
+Constants should be all upper-case with underscores between the words.
+
+{% highlight cpp %}
+const int NUM_OF_ENTITIES = 3;
+{% endhighlight %}
+
+### Namespace Names
+
+Namespace names are all lower-case, and based on project names and possibly their directory structure: _my\_awesome\_project_.
+
+### Enumerator Names
+
+Enumerators should be like constants all upper-case with underscores between the words.
+
+{% highlight cpp %}
+enum class switch_states {
+    ON,
+    OFF,
+    UNKNOWN_STATE
+};
+{% endhighlight %}
+
+### Template Names
+
+Template names start with a capital letter and have a capital letter for each new word, with no underscores: T, ComponentType, MyLittleTemplate.
+
+{% highlight cpp %}
+template<typename T, typename... Arguments>
+auto my_function(T value, Arguments... args) {
+    // ...
+}
+{% endhighlight %}
+
+### Macro Names
+
+**You are not going to use macros, are you?**
+
+Macro names are all upper-case with underscores between the words and a trailing underscore (\_) to avoid conflict with constant and enumerator names: MY\_NOT\_SO\_AWESOME\_MACRO\_(x, y) ALIGN\_(x)
+
+{% highlight cpp %}
+#define ALIGN_(x) ...
+#define MY_PI_CONSTANT_ 3.141592
+{% endhighlight %}
