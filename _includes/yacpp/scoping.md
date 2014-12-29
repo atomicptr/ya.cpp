@@ -65,7 +65,7 @@ Always prefer local static variables to redundant member variables.
 For instance:
 
 {% highlight cpp %}
-int next() {
+int proj::my_class::next() {
     static auto i = 0u;
 
     return i++;
