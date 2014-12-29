@@ -8,6 +8,8 @@
 
 Lorem ipsum dolor sit amet.
 
+![xkcd standards](http://imgs.xkcd.com/comics/standards.png)
+
 ## What does yacpp mean?
 
 If the title isn't obvious enough: **y**et **a**nother **.cpp** coding style
