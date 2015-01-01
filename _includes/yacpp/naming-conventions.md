@@ -40,7 +40,7 @@ C++ files should end in **.cpp** and header files should end in **.hpp**.
 
 Do not use filenames that already exist in /usr/include
 
-In general make your filenames very specific. For instance, use http\_server\_logs.hpp rather then logs.hpp. A very common case is to have a pair of tiles called, e.g., entity\_manager.hpp and entitiy\_manager.cpp, defining a class called entitiy\_manager.
+In general make your filenames very specific. For instance, use http\_server\_logs.hpp rather than logs.hpp. A very common case is to have a pair of tiles called, e.g., entity\_manager.hpp and entitiy\_manager.cpp, defining a class called entitiy\_manager.
 
 ## Type Names
 
