@@ -17,10 +17,7 @@ If the title isn't obvious enough: **y**et **a**nother **.cpp** style guide
 {% include yacpp/naming-conventions.md %}
 {% include yacpp/header-files.md %}
 {% include yacpp/scoping.md %}
-
-# Classes
-
-Coming soon...
+{% include yacpp/classes.md %}
 
 # C++ features
 
