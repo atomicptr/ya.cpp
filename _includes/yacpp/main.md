@@ -4,7 +4,7 @@
 
 <div id="toc"></div>
 
-## Why another C++ coding style?
+## Why another C++ style guide?
 
 Lorem ipsum dolor sit amet.
 
@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet.
 
 ## What does yacpp mean?
 
-If the title isn't obvious enough: **y**et **a**nother **.cpp** coding style
+If the title isn't obvious enough: **y**et **a**nother **.cpp** style guide
 
 {% include yacpp/naming-conventions.md %}
 {% include yacpp/header-files.md %}

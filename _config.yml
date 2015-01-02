@@ -10,8 +10,8 @@ relative_permalinks: true
 
 # Setup
 title:            ya.cpp
-tagline:          'Yet another C++ code style.'
-description:      'Yet another C++ code style.'
+tagline:          'Yet another C++ style guide.'
+description:      'Yet another C++ style guide.'
 url:              http://yacpp.kasoki.de
 baseurl:          /
 
