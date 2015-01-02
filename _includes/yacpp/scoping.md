@@ -73,3 +73,26 @@ int proj::my_class::next() {
 {% endhighlight %}
 
 We don't need ``i`` as a member but we need to store the value. Local static variables are the right tool for such cases.
+
+## Strongly typed enums
+
+**DON'T** use enums. They're terrible. Prefer **strongly typed enums**:
+
+{% highlight cpp %}
+enum class colors {
+    RED,
+    GREEN,
+    BLUE,
+    YELLOW
+};
+{% endhighlight %}
+
+**Usage:**
+
+{%highlight cpp %}
+auto color = tardis->color();
+
+if(color == colors::BLUE) {
+    // ...
+}
+{% endhighlight %}
