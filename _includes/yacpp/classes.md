@@ -16,7 +16,7 @@ my_type t{2, 3};
 t.init(); // Bad practice!
 {% endhighlight %}
 
-**IF** you really need to do two-step initialization prefer writing a static factory method and make the initialization method private:
+**IF** you really need to do two-step initialization prefer writing a static factory method and make the initialization method and the constructor private:
 
 {% highlight cpp %}
 class my_type {
@@ -32,6 +32,7 @@ public:
     }
 private:
     // ...
+    my_type(int, int);
     void init();
 }
 {% endhighlight %}
